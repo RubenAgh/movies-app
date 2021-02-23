@@ -1,0 +1,32 @@
+.search-bar-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobileButton {
+    width: 10%;
+    padding: 10px;
+  }
+  .mobileButton > span {
+    display: none;
+  }
+  .mobileButton::after {
+    content: '+';
+  }
+  .search-bar-mobile {
+    display: block;
+    margin: 8px auto;
+  }
+  .search-bar-mobile #standard-search {
+    width: 100%;
+  }
+}
+.searched-data-cont {
+  position: absolute;
+  z-index: 999999999;
+  background: #fff;
+  width: 400px;
+  max-height: 265px;
+  overflow: auto;
+  margin-top: 8px;
+}

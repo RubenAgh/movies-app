@@ -1,0 +1,19 @@
+.searched-movie {
+  border: 1px solid #c3cfd9;
+  padding: 8px 16px;
+  display: flex;
+}
+
+.searched-movie-data {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+}
+
+.searched-movie-data span:nth-child(1) {
+  padding-top: 8px;
+}
+
+.searched-movie-data span {
+  padding-bottom: 8px;
+}
